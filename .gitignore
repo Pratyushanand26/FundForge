@@ -4,6 +4,8 @@ node_modules/
 dist/
 *.log
 .vscode/
+README.md
+.gitignore
 
 # Foundry / Solidity
 remapings.txt
