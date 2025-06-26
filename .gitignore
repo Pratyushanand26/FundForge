@@ -1,18 +1,14 @@
-cache/
-out/
-# === Node.js ===
+# Node
 node_modules/
-
-
-# === VS Code ===
-# (omit this if you *do* want to share your workspace settings)
+.env
+dist/
+*.log
 .vscode/
 
-# === Foundry ===
-out/           # compiled artifacts
-cache/         # build cache
-
-# === Gas snapshots ===
+# Foundry / Solidity
+remapings.txt
 .gas-snapshot
-
-
+foundry.toml
+cache/
+out/
+test
