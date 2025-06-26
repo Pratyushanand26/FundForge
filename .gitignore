@@ -1,2 +1,18 @@
 cache/
 out/
+# === Node.js ===
+node_modules/
+
+
+# === VS Code ===
+# (omit this if you *do* want to share your workspace settings)
+.vscode/
+
+# === Foundry ===
+out/           # compiled artifacts
+cache/         # build cache
+
+# === Gas snapshots ===
+.gas-snapshot
+
+
